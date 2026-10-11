@@ -1,0 +1,14 @@
+/* Compact public landing page overrides */
+.public-body .hero { min-height: 530px; padding-top: 22px; padding-bottom: 48px; }
+.public-body .hero-proof { margin-top: 45px; }
+.public-body .hero-visual { min-height: 455px; }
+.public-body .course-visual-card { min-height: 405px; }
+.public-body .logo-strip { padding-top: 17px; padding-bottom: 21px; }
+.public-body .course-section { padding-top: 76px; padding-bottom: 83px; }
+.public-body .method-section { min-height: 485px; padding-top: 57px; padding-bottom: 57px; }
+.public-body .outcomes-section { padding-top: 78px; padding-bottom: 80px; }
+.public-body .cta-section { padding-bottom: 78px; }
+.public-body .site-footer { min-height: 78px; }
+.referral-welcome { display: flex; align-items: center; gap: 9px; max-width: 1440px; margin: 14px auto 0; padding: 10px 24px; border: 1px solid #d8e6bd; border-radius: 6px; background: #f0f6e5; color: #72834d; font-size: 10px; }.referral-welcome > span:first-child { color: #91b34a; font-size: 16px; }.referral-welcome strong { color: var(--ink); }
+@media (max-width: 900px) { .public-body .hero { min-height: 0; padding-top: 55px; }.public-body .hero-visual { min-height: 450px; }.public-body .course-visual-card { min-height: 400px; } }
+@media (max-width: 680px) { .public-body .hero { padding-top: 42px; padding-bottom: 34px; }.public-body .hero-visual { min-height: 360px; }.public-body .course-visual-card { min-height: 330px; }.public-body .logo-strip { padding-top: 14px; padding-bottom: 16px; }.public-body .course-section, .public-body .outcomes-section { padding-top: 62px; padding-bottom: 62px; }.public-body .method-section { min-height: 0; padding-top: 48px; padding-bottom: 48px; }.public-body .cta-section { padding-bottom: 56px; }.referral-welcome { margin: 10px 16px 0; padding: 9px 12px; } }
